@@ -6,6 +6,7 @@
   "scripts": {
     "dev:shopify": "shopify theme dev --store catfishgar",
     "dev:tailwind": "postcss ./styles/tailwind.css -o ./assets/tailwind.css --watch",
+    "format": "prettier --write \"./**/*.{json,liquid,js,css}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +16,8 @@
     "@tailwindcss/postcss": "4.0.0-beta.7",
     "postcss": "8.4.49",
     "postcss-cli": "11.0.0",
-    "tailwindcss": "4.0.0-beta.7"
+    "tailwindcss": "4.0.0-beta.7",
+    "prettier": "latest",
+    "@shopify/prettier-plugin-liquid": "latest"
   }
 }

@@ -1,0 +1,3 @@
+.page_width {
+  max-width: var(--page-width, 1200px);
+}
