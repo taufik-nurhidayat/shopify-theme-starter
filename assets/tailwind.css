@@ -576,9 +576,6 @@
   .bg-black {
     background-color: var(--color-black);
   }
-  .px-4 {
-    padding-inline: calc(var(--spacing) * 4);
-  }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
@@ -619,6 +616,8 @@
       padding: 24px 100px;
     }
   }
+}
+@layer utilities {
   .px-default {
     padding-left: 16px;
     padding-right: 16px;
