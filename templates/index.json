@@ -68,5 +68,5 @@
       }
     }
   },
-  "order": ["image_banner"]
+  "order": ["image_banner", "rich_text"]
 }

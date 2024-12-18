@@ -1,0 +1,17 @@
+.px-default {
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: 1080px) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.py-default {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media (min-width: 1080px) {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+}

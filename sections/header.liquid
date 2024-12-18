@@ -1,7 +1,8 @@
-<sticky-header class="header-wrapper">
-  <header class="main-header">
-    <div class="page-width mx-auto flex">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+  <header class="main-header mx-auto page-width">
+    <div class="flex">
       <a>Home</a>
     </div>
   </header>
-</sticky-header>
+</{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
+
